@@ -13,6 +13,7 @@ header {
   width: 100%;
   background-color: #ff6801;
   position: fixed;
+  z-index: 1;
 }
 
 .container {
@@ -59,10 +60,47 @@ div img {
 
 .cards {
   margin-top: 30px;
+  width: 350px;
+  height: 500px;
+  position: relative;
 }
 .heart-box {
   width: 50px;
   height: 50px;
   background-color: white;
-  z-index: 1;
+  position: absolute;
+  right: 0;
+  top: 10px;
+}
+
+.heart {
+  color: black;
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  align-items: center;
+}
+
+.heart:hover {
+  color: red;
+}
+
+.discount-box {
+  width: 50px;
+  height: 25px;
+  background-color: red;
+  position: absolute;
+  left: 0;
+  bottom: 40px;
+  color: white;
+}
+
+.green-box {
+  width: 100px;
+  height: 25px;
+  background-color: green;
+  position: absolute;
+  left: 55px;
+  bottom: 40px;
+  color: white;
 }
