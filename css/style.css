@@ -49,9 +49,9 @@ li a {
 i {
   margin-right: 10px;
 }
-main {
+/* main {
   padding-top: 80px;
-}
+} */
 
 div img {
   width: 350px;
@@ -59,7 +59,8 @@ div img {
 }
 
 .cards {
-  margin-top: 30px;
+  margin-top: 80px;
+  margin-bottom: 80px;
   width: 350px;
   height: 500px;
   position: relative;
