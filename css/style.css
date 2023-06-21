@@ -14,13 +14,13 @@ header {
   background-color: #ff6801;
   position: fixed;
   z-index: 1;
+  color: white;
 }
 
 .container {
   width: 1180px;
   margin: 0 auto;
   justify-content: space-between;
-  color: white;
 }
 
 header .container {
@@ -92,7 +92,6 @@ div img {
   position: absolute;
   left: 0;
   bottom: 40px;
-  color: white;
 }
 
 .green-box {
@@ -102,5 +101,24 @@ div img {
   position: absolute;
   left: 55px;
   bottom: 40px;
+}
+
+.prod-info {
   color: white;
+  display: flex;
+  justify-content: center;
+  height: 25px;
+  align-items: center;
+}
+
+h2 {
+  font-size: 1rem;
+}
+
+.price {
+  color: red;
+}
+.orig-price {
+  color: black;
+  text-decoration: line-through;
 }
