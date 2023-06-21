@@ -46,6 +46,84 @@ i {
   margin-left: 5px;
 }
 
+.cards-1 {
+  background-image: url(../img/1.webp);
+  background-size: cover;
+  width: 350px;
+  height: 500px;
+}
+
+.cards-1:hover {
+  background-image: url(../img/1b.webp);
+  width: 350px;
+  height: 500px;
+}
+
+.cards-2 {
+  background-image: url(../img/2.webp);
+  background-size: cover;
+  width: 350px;
+  height: 500px;
+}
+
+.cards-2:hover {
+  background-image: url(../img/2b.webp);
+  width: 350px;
+  height: 500px;
+}
+
+.cards-3 {
+  background-image: url(../img/3.webp);
+  background-size: cover;
+  width: 350px;
+  height: 500px;
+}
+
+.cards-3:hover {
+  background-image: url(../img/3b.webp);
+  width: 350px;
+  height: 500px;
+}
+
+.cards-4 {
+  background-image: url(../img/4.webp);
+  background-size: cover;
+  width: 350px;
+  height: 500px;
+}
+
+.cards-4:hover {
+  background-image: url(../img/4b.webp);
+  width: 350px;
+  height: 500px;
+}
+
+.cards-5 {
+  background-image: url(../img/5.webp);
+  background-size: cover;
+  width: 350px;
+  height: 500px;
+}
+
+.cards-5:hover {
+  background-image: url(../img/5b.webp);
+  width: 350px;
+  height: 500px;
+}
+
+.cards-6 {
+  background-image: url(../img/6.webp);
+  background-size: cover;
+  width: 350px;
+  height: 500px;
+}
+
+.cards-6:hover {
+  background-image: url(../img/6b.webp);
+  width: 350px;
+  height: 500px;
+}
+
 div img {
   width: 350px;
   height: 500px;
@@ -58,6 +136,7 @@ div img {
   height: 500px;
   position: relative;
 }
+
 .heart-box {
   width: 50px;
   height: 50px;
